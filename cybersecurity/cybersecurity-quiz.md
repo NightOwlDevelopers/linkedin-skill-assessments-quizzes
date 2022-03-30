@@ -28,7 +28,9 @@
 - [x] intrusion detection system (IDS)
 - [ ] next generation firewall
 
-**Explaination**: An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations. **Source** [Quizlet](https://quizlet.com/217188159/cissp-practice-testschapter-7-security-operations-domain7-flash-cards/)
+An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations.
+
+[Quizlet](https://quizlet.com/217188159/cissp-practice-testschapter-7-security-operations-domain7-flash-cards/)
 
 #### Q5. Packet sniffer is also called **\_**.
 
@@ -72,7 +74,7 @@
 - [ ] fault tolerant infrastructure and data redundancy
 - [x] separation of duties and job rotation
 
-**Source**: [Stack Exchange](https://security.stackexchange.com/a/114835/249930)
+[Stack Exchange](https://security.stackexchange.com/a/114835/249930)
 
 #### Q11. During a penetration test, you find a file containing hashed passwords for the system you are attempting to breach. Which type of attack is most likely to succeed in accessing the hashed passwords in a reasonable amount of time?
 
@@ -81,7 +83,9 @@
 - [ ] password spray attack
 - [ ] brute force attack
 
-**Explanation**: A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time. **Source** [Professor Messer](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3).
+A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.
+
+[Professor Messer](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3).
 
 #### Q12. Which area is DMZ?
 
@@ -113,8 +117,6 @@
 - [x] availability
 - [ ] confidentiality
 
-**Source**: [screenshot](https://i.imgur.com/IeGShfi.png) of LinkedIn assessment practice mode question.
-
 #### Q16. You need to recommend a solution to automatically assess your cloud-hosted VMs against CIS benchmarks to identify deviations from security best practices. What type of solution should you recommend?
 
 - [x] Cloud Security Posture Management (CSPM)
@@ -122,9 +124,7 @@
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
 
-**Source**: [screenshot](https://i.imgur.com/fsgkfoS.png) of LinkedIn assessment practice mode question.
-
-#### Q17. \_ validates the integrity of data files.
+#### Q17. **\_** validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -205,7 +205,9 @@
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] International Organization for Standardization and Internation Electronical Commission (ISO/IEC 27018)
 
-**Explaintion**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers. **Source**: ([PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)).
+**Explanation**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers.
+
+[PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)
 
 #### Q28. What provides a common language for describing security incidents in a structures and repeatable manner?
 
@@ -223,7 +225,9 @@
 - [ ] firewall
 - [x] protocol analyzer
 
-**Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel. [WireShark](https://www.wireshark.org) is a protocol analyzer.
+**Explanation**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel.
+
+[WireShark](https://www.wireshark.org) is a protocol analyzer.
 
 #### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensative public data.
 
@@ -232,7 +236,7 @@
 - [ ] SQL injection
 - [ ] cross-origin resouce sharing
 
-**Explaination**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
+**Explanation**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
 
 #### Q31. What act grants an authenticated party permission to perform an action or access a resource?
 
@@ -241,7 +245,7 @@
 - [x] authorization
 - [ ] Single Sign-On
 
-**Source** [Okata.com](https://www.okta.com/identity-101/authentication-vs-authorization/)
+[Okata.com](https://www.okta.com/identity-101/authentication-vs-authorization/)
 
 #### Q32. According to GDPR, a data \_ is the person about whom data is being collected.
 
@@ -250,7 +254,7 @@
 - [x] subject
 - [ ] controller
 
-**Source** [Intersoft Consulting](https://gdpr-info.eu/art-4-gdpr/)
+[Intersoft Consulting](https://gdpr-info.eu/art-4-gdpr/)
 
 #### Q33. Which is not a principle of zero trust security?
 
@@ -259,8 +263,9 @@
 - [x] trust but verify
 - [ ] assume breach
 
-**Explaination**: zero trust assumes that the system will be breached and designs security as if there is no perimeter. Hence, don’t trust anything by default.
-**Source** [NIST](https://www.nist.gov/blogs/taking-measure/zero-trust-cybersecurity-never-trust-always-verify)
+**Explanation**: zero trust assumes that the system will be breached and designs security as if there is no perimeter. Hence, don’t trust anything by default.
+
+[NIST](https://www.nist.gov/blogs/taking-measure/zero-trust-cybersecurity-never-trust-always-verify)
 
 #### Q34. Which attack exploits input validation vulnerabilities?
 
@@ -269,7 +274,7 @@
 - [x] cross-site scripting (XSS)
 - [ ] DNS poisoning
 
-**Source** [White Hat Sec](https://www.whitehatsec.com/glossary/content/input-validation)
+[White Hat Sec](https://www.whitehatsec.com/glossary/content/input-validation)
 
 #### Q35. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
 
@@ -413,8 +418,10 @@ autopsy is for forensic analysis
 
 - [ ] Reporting
 - [ ] Recovery
-- [ ] Eradiction / Remediation
+- [x] Eradiction / Remediation
 - [ ] Lessons Learned
+
+[Explanation: Pages 29 to 31 ->](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf)
 
 #### Q55. Which programming language is most susceptible to buffer overflow attacks?
 
@@ -444,7 +451,7 @@ autopsy is for forensic analysis
 - [ ] typethief
 - [x] keylogger
 
-#### Q59. How does randsomware affect a victim's files?
+#### Q59. How does ransomware affect a victim's files?
 
 - [ ] by destroying them
 - [x] by encrypting them
@@ -471,7 +478,6 @@ autopsy is for forensic analysis
 - [ ] a guide to risk assessments
 - [ ] a guideline for vulnerability testing
 - [ ] a step-by-step guide for performing business impact analyses
--
 
 #### Q63. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
 
@@ -550,6 +556,8 @@ autopsy is for forensic analysis
 - [ ] applied risk
 - [ ] leftover risk
 
+[Explanation](https://www.sans.org/brochure/course/information-security-risk-management/226)
+
 #### Q74. There are four possible treatments once an assessment has identified a risk. Which risk treatment implements controls to reduce risk?
 
 - [x] risk mitigation
@@ -559,7 +567,7 @@ autopsy is for forensic analysis
 
 #### Q75. Which security control scheme do vendors often submit their products to for evaluation, to provide an independent view of product assurance?
 
-- [x] common criteria
+- [x] Common Criteria
 - [ ] risk management certification board
 - [ ] OWASP security evaluation
 - [ ] ISO 27000
@@ -575,8 +583,10 @@ autopsy is for forensic analysis
 
 - [ ] ISO 27001
 - [ ] ISO 27017
-- [ ] cloud security guidelines
-- [x] cloud controls matrix
+- [ ] Cloud Security Guidelines
+- [x] Cloud Controls Matrix
+
+[Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
 #### Q78. What are the essential characteristics of the reference monitor?
 
@@ -590,6 +600,8 @@ autopsy is for forensic analysis
 - [ ] Understand the threats and vulnerabilities.
 - [ ] Conduct a risk assessment.
 - [ ] Analyze and prioritize gaps to create the action plan.
+
+[Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
 #### Q80. You are implementing a cybersecurity program in your organization and want to use the "de facto standard" cybersecurity framework. Which option would you choose?
 
@@ -605,9 +617,101 @@ autopsy is for forensic analysis
 - [x] a DDoS (Distributed Denial of Service) attack
 - [ ] a botnet attack
 
+[Explanation](https://www.forbes.com/sites/parmyolson/2014/11/20/the-largest-cyber-attack-in-history-has-been-hitting-hong-kong-sites/?sh=56e071cd38f6)
+
 #### Q82. The regulatory requirements for notifications of data breaches, particularly the European General Data Protection Regulations, have had what sort of effect on business?
 
 - [x] an increased business liability in the event of a data breach
 - [ ] an increased consumer liability in the event of a data breach
 - [ ] a decreased consumer liability in the event of a data breach
 - [ ] a decreased business liability in the event of a data breach
+
+#### Q83. Which compliance framework governs requirements for the U.S. healthcare industry?
+
+- [ ] FedRAMP
+- [ ] GDPR
+- [ ] PCI-DSS
+- [x] HIPAA
+
+[Explanation](https://online.maryville.edu/blog/5-important-regulations-in-united-states-healthcare/)
+
+#### Q84. Duplicate
+
+#### Q85. What is the difference between DevOps and DevSecOps?
+
+- [x] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
+- [ ] DevSecOps slows down the CI/CD process of DevOps.
+- [ ] DevSecOps places security controls in the CI/CD process of DevOps.
+- [ ] DevSecOps lets cybersecurity engineers dictate the CI/CD process of DevOps.
+
+[Explanation](https://www.linkedin.com/learning/devops-foundations-devsecops/introduction-to-devsecops)
+
+#### Q86. When does static application security testing require access to source code?
+
+- [x] always
+- [ ] only when assessing regulatory compliance
+- [ ] only if following the Agile model
+- [ ] never
+
+[Explanation:](https://www.synopsys.com/glossary/what-is-sast.html)
+
+#### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
+
+    Control of security required for regulatory compliance
+    Legacy application and database support
+    Scalability to meet seasonal increases in demand
+
+Which cloud model is the best option for these requirements?
+
+- [ ] government cloud
+- [ ] public cloud
+- [x] hybrid cloud
+- [ ] private cloud
+
+#### Q88. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
+
+- [ ] Give up on the current target network and move on to the next one.
+- [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
+- [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
+- [x] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
+
+#### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
+
+What are the primary goals of the digital signature in this scenario? (Choose the best answer.)
+
+- [x] integrity and non-repudiation
+- [ ] privacy and non-repudiation
+- [ ] privacy and confidentiality
+- [ ] integrity and privacy
+
+#### Q90. Which option is a mechanism to ensure non-repudiation?
+
+- [ ] MD5
+- [ ] Caesar cipher
+- [ ] symmetric-key encryption
+- [x] asymmetric-key encryption
+
+[Explanation:](https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153)
+
+#### Q91. Which software development lifecycle approach is most compatible with DevSecOps?
+
+- [x] Agile
+- [ ] Model-Driven Development
+- [ ] Waterfall
+- [ ] Model-Driven Architecture
+
+#### Q92. Which information security principle states that organizations should defend systems against any particular attack using several independent methods?
+
+- [ ] separation of duties
+- [ ] privileged account management (PAM)
+- [x] defense-in-depth
+- [ ] least privilege
+
+[Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
+
+#### Q93. Which option describes a core principle of DevSecOps?
+
+- [x] Testing and release should be 100% automated
+- [ ] Role separation is the key to software security
+- [ ] Final responsibility for security rests with the architect of the application
+- [ ] Everyone in the process is reponsible for security

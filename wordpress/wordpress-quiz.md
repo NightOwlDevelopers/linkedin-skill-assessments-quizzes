@@ -341,7 +341,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 - [ ] Template tags prefaced with the\_ can be used directly within a template. Template tags prefaced with get_the are generally reserved for partial templates.
 - [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
-- [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
+- [x] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
 - [ ] Template tags prefaced with the\_ don't accept arguments. Template tags prefaced with get_the do accept arguments.
 
 #### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
@@ -678,3 +678,17 @@ endif;
 - [ ] Object
 
 [Reference](https://www.w3schools.com/js/js_datatypes.asp)
+
+#### Q79. You would use a post instead of a page when the content is **\_**.
+
+- [ ] for a top-level menu item
+- [ ] nested (has a parent/child relationship with another piece of content)
+- [x] when the content is part of a blog.
+- [ ] evergreen
+
+#### Q80. The WordPress block editor contains a number of default blocks, including blocks for paragraphs, images, quotes, and shortcode. Blocks are grouped into categories to help users browse and discover them. Which is not a category provided by WordPress core?
+
+- [ ] formatting
+- [ ] widgets
+- [ ] layout
+- [x] shortcodes

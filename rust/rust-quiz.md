@@ -15,10 +15,12 @@ str::thread::spawn(|| {
 });
 ```
 
-- [ ] a closure
-- [x] a thread
+- [x] a closure
+- [ ] a thread
 - [ ] a future
 - [ ] a block
+
+[reference](https://doc.rust-lang.org/book/ch13-01-closures.html#refactoring-with-closures-to-store-code)
 
 #### Q3. Which choice is not a scalar data type?
 
@@ -231,8 +233,8 @@ v.write_all(&b.to_string().as_bytes())?;
 c.encode_utf8(&mut v);
 ```
 
-[Answered in rust user forum](https://users.rust-lang.org/t/formatting-and-writing-to-a-file-without-malloc-or-locks/52295/9)
-[reference](https://doc.rust-lang.org/std/macro.write.html)
+1. [Answered in rust user forum](https://users.rust-lang.org/t/formatting-and-writing-to-a-file-without-malloc-or-locks/52295/9)
+2. [reference](https://doc.rust-lang.org/std/macro.write.html)
 
 #### Q18. Does the `main` function compile? If so, why? If not, what do you need to change?
 
@@ -391,3 +393,33 @@ enum Status {
 - [ ] Option is an enum type.
 - [ ] Enum variants can have different types with associated data.
 - [x] the term _enum_ is short for _enummap_
+
+#### Q33. What does an underscore (\_) indicate when used as pattern?
+
+- [x] It matches everything.
+- [ ] It matches underscores.
+- [ ] It matches any value that has a length of 1.
+- [ ] It matches nothing.
+
+#### Q34. What is a safe operation on a `std::cell:UnsafeCell<T>`?
+
+- [ ] A `&mut T` reference is allowed. However it may not cpexists with any other references. and may be created only in single-threaded code.
+- [ ] `UnsafeCell<T>` provides thread-safety. Therefore, creating `&T` references from multiple threads is safe.
+- [x] The only safe operation is the `.get()` method, which returns only a raw pointer.
+- [ ] Non. `UnsafeCell<T>` only allows code that would otherwise need unsafe blocks to be written in safe code.
+
+[Reference](https://doc.rust-lang.org/stable/std/cell/struct.UnsafeCell.html)
+
+#### Q35. Generics are useful when you **\_**.
+
+- [ ] need to reduce code duplication by concretizing vales and restricting paramaters in functions
+- [x] need to reduce code duplication by abstarting vales further, such as in function paramters
+- [ ] need a supertait
+- [ ] are not sure if you need a specific kind of trait
+
+#### Q36. **\_** cannot be destructed.
+
+- [x] Traits
+- [ ] Enums
+- [ ] Tuples
+- [ ] Structs

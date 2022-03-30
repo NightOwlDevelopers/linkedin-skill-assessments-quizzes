@@ -686,6 +686,8 @@ echo "${VAR//man/rolling}"
 
 #### Q57. What statement would you use to print this in the console?
 
+`Shall we play a game? yes\no`
+
 - [ ] `echo "Shall we play a game? yes/\no"`
 - [ ] `echo "Shall we play a game\? yes\\no"`
 - [x] `echo "Shall we play a game? yes\\no"`
@@ -753,7 +755,7 @@ fi
 
 - [ ] There will be no unexpected results. This script works as is and the output will be "8 is greater than 5".
 - [ ] The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to "8.8".
-- [ ] There will be a file in the current directory named 5.
+- [x] There will be a file in the current directory named 5.
 - [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of
 
 #### Q60. What is the result of this script?
@@ -817,3 +819,56 @@ echo "$var" | sed _____
 - [ ] ls ¦ filelist.txt
 - [x] ls > filelist.txt
 - [ ] ls - filelist.txt
+
+#### Q67. When comparing items with case, what statement indicates an end to the evaluation block?
+
+- [ ] stop
+- [x] esac
+- [ ] done
+- [ ] exit
+
+#### Q68. To run a group of commands without spawning a subshell, which syntax would you use?
+
+- [ ] sh command1; command2
+- [ ] { command1; command2; }
+- [ ] (( command1; command2 ))
+- [x] command1; command2 )
+
+#### Q69. What are the results of the command with a user named jon?
+
+```bash
+echo 'Hello, $(whoami)!'
+```
+
+- [ ] Hello, $(jon)!
+- [ ] Hello, jon!
+- [x] Hello, $(whoami)!
+- [ ] Hello, whoami!
+
+#### Q70. How can you copy a directory to another system with compression?
+
+- [ ] tar -ssh user@192.158.1.1 /bin/newfile
+- [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
+- [ ] You can't compress the stream
+- [ ] scp -r directory user@192.168.1.1:/tmp
+
+#### Q71. To assign the command `ls -lah` to the shortcut command `lh`, what command should you use?
+
+- [x] alias lh='ls -lah'
+- [ ] link lh='ls -lah'
+- [ ] alias 'ls -lah'=lh
+- [ ] lh | ls -lah
+
+#### Q72. Which statement will print all of the fully qualified .cvs files in the home directory or subdirectories while not displaying any errors?
+
+- [ ] find $USER_DIR -name "\*.csv" 2>/dev/null
+- [ ] find $HOME -name "\*.csv" 1>/dev/null
+- [x] find $HOME -name "\*.csv" 2>/dev/null
+- [ ] find HOME -name "\*.csv" 1>/dev/null
+
+#### Q73. In Bash, what does a # at the end of the default prompt string indicate?
+
+- [x] that the user is acting as root
+- [ ] that the current working directory is the root of the file system
+- [ ] that there are updates for the system available
+- [ ] that the user is unprivileged

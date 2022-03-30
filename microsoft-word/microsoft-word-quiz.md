@@ -530,6 +530,8 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q67. What is the difference between a footnote and an endnote?
 
+Duplicated with Q33.
+
 - [ ] An endnote always appears on the bottom of the same page that it references
 - [ ] Footnote use Arabic numerals and endnotes use letters.
 - [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
@@ -572,11 +574,92 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] blank page
 - [ ] table of contents page
 
-### Q73. before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+#### Q73. Before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
 
 - [x] check Accessibility
-- [ ] inspact document
+- [ ] inspect document
 - [ ] check compatibility
 - [ ] protect document
 
 [Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)
+
+#### Q74. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?
+
+- [ ] From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.
+- [ ] Click File > Properties > Content to display file information, including the number of paragraphs.
+- [x] On the status bar, select Word Count to display file information, including the number of paragraphs.
+- [ ] Click File > Info > Inspect Document to display file information, including the number of paragraphs.
+
+#### Q75. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
+
+- [x] On the View tab of the ribbon, click Split.
+- [ ] Save a duplicate copy of your document, then view both documents side by side.
+- [ ] On the Insert tab of the ribbon, create a bookmark for the location that you want to read.
+- [ ] On the View tab of the ribbon, click New Window.
+
+#### Q76. What is the purpose of adding alternative text (alt text) to an image in your document?
+
+- [ ] Alt text improves accessibility in your document.
+- [x] all of these answers
+- [ ] Alt text describes what appears in the image.
+- [ ] Screen readers read the text aloud for users with visual impairments.
+
+#### Q77. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?
+
+- [ ] Insert Footnote
+- [ ] Insert Citation
+- [x] Insert Caption
+- [ ] Insert Table of Figures
+
+#### Q78. In this image, what do the red lines next to the text indicate?
+
+Duplicated with Q50.
+
+![image](https://i.imgur.com/JUbaoyO.png)
+
+- [x] Changes were made to these areas.
+- [ ] Draw tools were used in these areas.
+- [ ] Track Changes has been disabled.
+- [ ] Comments were added to these areas.
+
+#### Q79. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
+
+- [ ] In Line with Text
+- [x] With Text Wrapping
+- [ ] Behind Text
+- [ ] Through
+
+#### Q80. You want to place a triangle shape on your page. Where do you find the shape?
+
+- [ ] On the Insert tab, click SmartArt.
+- [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.
+- [ ] On the Insert tab, click Icons.
+- [x] On the Insert tab, click Shapes and look in the Basic Shapes section.
+
+#### Q81. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
+
+- [x] Collated
+- [ ] Print One-Sided
+- [ ] Uncollated
+- [ ] Print on Both Sides
+
+#### Q82. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
+
+- [x] Read Mode (Windows) or Focus (Mac)
+- [ ] Draft view
+- [ ] Web Layout view
+- [ ] Outline view
+
+#### Q83. You want a different header and footer to appear on alternating pages. Which option should you choose?
+
+- [x] Different Odd & Even Pages
+- [ ] Insert Alt Header/Footer
+- [ ] Display on Odd Pages Only
+- [ ] Different First Page
+
+#### Q84. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
+
+- [ ] Open any document, change your font settings, and save as a template.
+- [ ] Create a macro that will change all fonts to Arial 11.5 point.
+- [ ] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
+- [ ] In a new, blank document, make your font changes and then save your document as a template.

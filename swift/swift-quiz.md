@@ -163,7 +163,7 @@ let value1 = "\("test".count)"
 
 - [x] when it's executed after the function returns
 - [ ] when it's scope is undefined
-- [ ] when is's lazy loaded
+- [ ] when it's lazy loaded
 - [ ] all of these answers
 
 #### Q16. What's wrong with this code?
@@ -250,10 +250,10 @@ var vals = Set<String> = ["4", "5", "6"]
 vals.insert("5")
 ```
 
-- [x] three
+- [ ] three
 - [ ] four
 - [ ] eight
-- [ ] This code contains an error.
+- [x] This code contains an error.
 
 #### Q23. How can you avoid a strong reference cycle in a closure?
 
@@ -766,3 +766,14 @@ let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
 - [ ] []
 - [x] [2,4,6]
 - [ ] nil
+
+### Q68. What is the type of `vals` in this code?
+
+```swift
+let vals = ["a", 1, "Hi"]
+```
+
+- [ ] Array(char)
+- [x] [Any]
+- [ ] Array<char>
+- [ ] [Generic]

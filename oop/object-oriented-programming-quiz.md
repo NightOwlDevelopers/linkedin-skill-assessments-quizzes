@@ -170,11 +170,11 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] a procedure-oriented language
 - [ ] if classes are supported, polymorphism will be supported
 
-#### Q23. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?
+#### Q23. Two classes combine private data members and provide public member functions to access and manipulate those data members. Where is abstraction used?
 
-- [ ] Abstraction is using a private access specifier for data members
-- [x] Abstraction is using public member functions to access and manipulate the data members
-- [ ] Abstraction is using the class concept with both data members and member functions
+- [ ] Abstraction is using a private access specifier for the data members.
+- [x] Abstraction is using public member functions to access and manipulate the data members.
+- [ ] Abstraction is using the class concept with both data members and member functions.
 - [ ] There is insufficient information to decide where abstraction is being used.
 
 #### Q24. What are the five Creational Design patterns by the Gang of Four ?
@@ -470,8 +470,6 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] toes:feet
 - [ ] rock:stone
 
-[Source: LinkedIn assessment practice mode](https://i.imgur.com/xUCuxms.png)
-
 #### Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?
 
 - [ ] Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.
@@ -610,7 +608,7 @@ public class Honda extends Car{}
 
 - [x] overloading
 - [ ] inheritance
-- [ ] abstaction
+- [ ] abstraction
 - [ ] overriding
 
 #### Q78. What does a concrete class not have?
@@ -643,9 +641,16 @@ public class Honda extends Car{}
 
 #### Q82. What parameters are required to be passed to a class constructor?
 
-// Here they haven't mentioned any specific language so let's consider all languages.
+`Here they haven't mentioned any specific language so let's consider all languages.`
 
 - [ ] reference to subclass // References to subclass are never required as you can simply Initialize subclass & use their object.
 - [ ] reference to base class // References to the base class are not required in Java, Javascript & Python
 - [ ] reference to this pointer // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.
 - [x] none // Above 3 are incorrect so "none" is the answer
+
+#### Q83. What are the four principles of object-oriented programming?
+
+- [ ] manipulation, encapsulation, inheritance, and dependency inversion
+- [ ] dependency inversion, open/closed principle, encapsulation, and inheritance
+- [ ] interface segregation, abstraction, dependency inversion, and inheritance
+- [x] abstraction, encapsulation, inheritance, and polymorphism
